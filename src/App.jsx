@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Features from './components/Features'
+import Scroll3D from './components/Scroll3D'
 import CTA from './components/CTA'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <main>
         <Hero />
         <Features />
+        <Scroll3D />
         <CTA />
       </main>
       <footer className="border-t border-slate-200 bg-white">
